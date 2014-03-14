@@ -1,4 +1,6 @@
-﻿//$(function () {
+﻿"use strict";
+
+//$(function () {
     MyApp.home = function (params) {
         alert('loading home controller...');
 
