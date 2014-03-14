@@ -34,7 +34,6 @@
   <preference name="AutoHideSplashScreen" value="false" />
   <!-- Do not auto hide splash on Android -->
   <preference name="SplashScreenDelay" value="10000" />
-  <gap:plugin name="org.apache.cordova.splashscreen" />
   <icon src="icon.png" />
   <icon gap:density="ldpi" gap:platform="android" src="www/icon.png" />
   <icon gap:density="mdpi" gap:platform="android" src="www/icon.png" />
