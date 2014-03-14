@@ -2,6 +2,8 @@
 /// <reference path="../js/knockout-3.0.0.js"; />
 
 (function () {
+    alert('db loading');
+
     var myVideos = [
         { name: "Esophageal Adenocarcinoma: Wallflex Stent placement", src: "_iAkYvRl7FM" },
         { name: "RFA for GAVE (Halo ULTRA)", src: "kRwliAyFJ6U" },
@@ -26,7 +28,7 @@
 
     var demoCategories = [
         { key: 'Category 1', items: [
-            { 
+            {
                 text: "RFA for Barrett's Esophagus",
                 id: 'esophagus',
                 links: [
@@ -56,7 +58,8 @@
                     { name: 'EET 2014 (pdf)', url: '/content/procedures/esophagus/guidelines/EET%202014.pdf' }
                 ]
             }
-        ] },
+        ]
+        },
         { key: 'Category 2', items: [
             {
                 text: 'Difficult ERCP',
@@ -86,9 +89,9 @@
                 text: 'EMR for Complex Polyps',
                 id: 'polyps',
                 links: [
-                    { url: 'http://www.sciencedirect.com/science/article/pii/S1542356513014547'},
-                    { url: 'http://www.sciencedirect.com/science/article/pii/S0016510713001909'},
-                    { url: 'http://www.sciencedirect.com/science/article/pii/S001651071200226X'}
+                    { url: 'http://www.sciencedirect.com/science/article/pii/S1542356513014547' },
+                    { url: 'http://www.sciencedirect.com/science/article/pii/S0016510713001909' },
+                    { url: 'http://www.sciencedirect.com/science/article/pii/S001651071200226X' }
                 ],
                 photos: [
                     '/content/procedures/polyps/images/channel%20colon%2023.jpeg',
@@ -107,7 +110,8 @@
                     { name: 'ASGE Colon EMR Talk (pdf)', url: '/content/procedures/ercp/guidelines/ASGE%20Colon%20EMR%20Talk.pdf' }
                 ]
             }
-        ] }
+        ]
+        }
     ];
 
     var categories = [
@@ -152,6 +156,8 @@
         return { text: 'Unidentified Procedure', id: procedureId };
     };
 
+    alert('storing db...');
+
     window.MyApp.db = {
         library: library,
         ryansLibrary: ryansStuff,
@@ -159,6 +165,8 @@
         demoCategories: demoCategories,
         getProcedureById: getProcedureById
     };
+
+    alert('db stored');
 
     console.log('db initiated');
 })();
