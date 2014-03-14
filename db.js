@@ -2,7 +2,7 @@
 /// <reference path="../js/knockout-3.0.0.js"; />
 
 (function () {
-    alert('db loading');
+//    alert('db loading');
 
     var myVideos = [
         { name: "Esophageal Adenocarcinoma: Wallflex Stent placement", src: "_iAkYvRl7FM" },
@@ -156,7 +156,7 @@
         return { text: 'Unidentified Procedure', id: procedureId };
     };
 
-    alert('storing db...');
+//    alert('storing db...');
 
     window.MyApp.db = {
         library: library,

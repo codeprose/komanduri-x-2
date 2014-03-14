@@ -1,5 +1,7 @@
 ﻿$(function () {
     MyApp.home = function (params) {
+        alert('loading home controller...');
+
         var viewModel = {
 
             navigateToProcedure: function (itemClicked) {
@@ -18,10 +20,12 @@
                 // crazy is going on. Removing this will cause the library 
                 // list to act wonky
                 if (args.viewInfo.viewName === 'home') {
-                    $('#home-nav-list').find('.dx-list-item').hide();                    
+                    $('#home-nav-list').find('.dx-list-item').hide();
                 }
             }
         };
+
+        alert('home controller loaded');
 
         return viewModel;
     };
