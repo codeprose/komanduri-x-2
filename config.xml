@@ -7,33 +7,16 @@
   <author email="sam@thecodeprose.com" href="http://thecodeprose.com">
     CodeProse, LLC
   </author>
-  <feature name="http://api.phonegap.com/1.0/file"/>
+  <!--<feature name="http://api.phonegap.com/1.0/file"/>
   <feature name="http://api.phonegap.com/1.0/network"/>
-  <feature name="http://api.phonegap.com/1.0/device" />
+  <feature name="http://api.phonegap.com/1.0/device" />-->
 
-  <content src="index.html" />
-  
   <preference name="phonegap-version" value="2.9.0" />
-  <preference name="permissions" value="none" />
-  <preference name="orientation" value="default" />
-  <preference name="target-device" value="universal" />
-  <preference name="fullscreen" value="true" />
-  <preference name="webviewbounce" value="true" />
-  <preference name="prerendered-icon" value="true" />
-  <preference name="stay-in-webview" value="false" />
-  <preference name="ios-statusbarstyle" value="black-opaque" />
-  <preference name="detect-data-types" value="true" />
-  <preference name="exit-on-suspend" value="false" />
-  <!--<preference name="show-splash-screen-spinner" value="true" />-->
+  <preference name="orientation" value="portrait" />
+  <preference name="target-device" value="handset" />
   <preference name="auto-hide-splash-screen" value="false" />
-  <preference name="disable-cursor" value="false" />
-  <preference name="android-minSdkVersion" value="7" />
-  <preference name="android-installLocation" value="auto" />
-  <preference name="AllowInlineMediaPlayback" value="true" />
-  <!-- Do not auto hide splash on iOS -->
-  <preference name="AutoHideSplashScreen" value="false" />
-  <!-- Do not auto hide splash on Android -->
-  <preference name="SplashScreenDelay" value="10000" />
+  <preference name="permissions" value="none"/>
+
   <icon src="icon.png" />
   <icon gap:density="ldpi" gap:platform="android" src="www/icon.png" />
   <icon gap:density="mdpi" gap:platform="android" src="www/icon.png" />
