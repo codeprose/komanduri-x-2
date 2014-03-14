@@ -1,12 +1,8 @@
 ﻿var MyApp = window.MyApp || {};
 
-alert('first line');
-
 $(function () {
     try {
-        document.addEventListener("deviceready", function () { navigator.splashscreen.hide(); alert('splash screen hidden'); });
-
-        alert('setting up MyApp');
+        document.addEventListener("deviceready", function () { navigator.splashscreen.hide(); });
 
         MyApp.app = new DevExpress.framework.html.HtmlApplication({
             namespace: MyApp,
@@ -35,8 +31,8 @@ $(function () {
         MyApp.app.router.register(":view", { view: "settings" });
         MyApp.app.router.register(":view/:id", { view: "procedure", id: null });
 
-        alert('navigating...');
         MyApp.app.navigate();
+        console.log('navigated');
         alert('navigated');
     } catch (e) {
         alert(e);
