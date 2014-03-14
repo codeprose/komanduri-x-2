@@ -1,4 +1,4 @@
-﻿$(function () {
+﻿//$(function () {
     MyApp.home = function (params) {
         alert('loading home controller...');
 
@@ -29,4 +29,4 @@
 
         return viewModel;
     };
-});
+//});
