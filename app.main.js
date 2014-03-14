@@ -1,4 +1,6 @@
-﻿var MyApp = window.MyApp || {};
+﻿"use strict";
+
+var MyApp = window.MyApp || {};
 
 $(function () {
     try {
