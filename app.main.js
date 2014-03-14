@@ -7,25 +7,25 @@ $(function () {
         document.addEventListener("deviceready", function () { navigator.splashscreen.hide(); });
 
         MyApp.app = new DevExpress.framework.html.HtmlApplication({
-            namespace: MyApp,
-            navigationType: "navbar",
-            navigation: [
-                    {
-                        title: "Home",
-                        action: "#home",
-                        icon: "home"
-                    },
-                    {
-                        title: "My Library",
-                        action: "#library",
-                        icon: "favorites"
-                    },
-                    {
-                        title: "Settings",
-                        action: "#settings",
-                        icon: "info"
-                    }
-                ]
+            namespace: MyApp
+            ,navigationType: "empty"
+//            ,navigation: [
+//                    {
+//                        title: "Home",
+//                        action: "#home",
+//                        icon: "home"
+//                    },
+//                    {
+//                        title: "My Library",
+//                        action: "#library",
+//                        icon: "favorites"
+//                    },
+//                    {
+//                        title: "Settings",
+//                        action: "#settings",
+//                        icon: "info"
+//                    }
+//                ]
         });
 
         MyApp.app.router.register(":view", { view: "home" });
