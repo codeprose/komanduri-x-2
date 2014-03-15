@@ -56,10 +56,6 @@
     <Content Include="debug-pgb.js" />
     <Content Include="icon.png" />
     <Content Include="index.html" />
-    <Content Include="Lib\js\cordova.js" />
-    <Content Include="Lib\js\cordova\cordova.android.js" />
-    <Content Include="Lib\js\cordova\cordova.ios.js" />
-    <Content Include="Lib\js\cordova\cordova.stub.js" />
     <Content Include="config.xml" />
     <Content Include="content\procedures\ercp\images\image-1.png" />
     <Content Include="content\procedures\ercp\images\image-2.png" />
