@@ -2,7 +2,7 @@
 
 //$(function () {
     MyApp.home = function (params) {
-        alert('loading home controller...');
+//        alert('loading home controller...');
 
         var viewModel = {
 
@@ -27,7 +27,7 @@
             }
         };
 
-        alert('home controller loaded');
+//        alert('home controller loaded');
 
         return viewModel;
     };

@@ -8,24 +8,24 @@ $(function () {
 
         MyApp.app = new DevExpress.framework.html.HtmlApplication({
             namespace: MyApp
-            ,navigationType: "empty"
-//            ,navigation: [
-//                    {
-//                        title: "Home",
-//                        action: "#home",
-//                        icon: "home"
-//                    },
-//                    {
-//                        title: "My Library",
-//                        action: "#library",
-//                        icon: "favorites"
-//                    },
-//                    {
-//                        title: "Settings",
-//                        action: "#settings",
-//                        icon: "info"
-//                    }
-//                ]
+            ,navigationType: "navbar"
+            ,navigation: [
+                    {
+                        title: "Home",
+                        action: "#home",
+                        icon: "home"
+                    },
+                    {
+                        title: "My Library",
+                        action: "#library",
+                        icon: "favorites"
+                    },
+                    {
+                        title: "Settings",
+                        action: "#settings",
+                        icon: "info"
+                    }
+                ]
         });
 
         MyApp.app.router.register(":view", { view: "home" });
@@ -34,8 +34,6 @@ $(function () {
         MyApp.app.router.register(":view/:id", { view: "procedure", id: null });
 
         MyApp.app.navigate();
-        console.log('navigated');
-        alert('navigated');
     } catch (e) {
         alert(e);
     }
