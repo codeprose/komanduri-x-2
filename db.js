@@ -45,17 +45,17 @@
                     { url: 'http://www.sciencedirect.com/science/article/pii/S0016510713021408' }
                 ],
                 photos: [
-                    '/content/procedures/esophagus/images/CRIM-NBI.JPEG',
-                    '/content/procedures/esophagus/images/CRIM.JPEG',
-                    '/content/procedures/esophagus/images/GAVE-p-RFA-1.JPEG',
-                    '/content/procedures/esophagus/images/GAVE-post-1.JPEG',
-                    '/content/procedures/esophagus/images/GAVE-Pre-1.JPEG',
-                    '/content/procedures/esophagus/images/image-1.JPEG',
-                    '/content/procedures/esophagus/images/image.JPEG',
-                    '/content/procedures/esophagus/images/jc-post-1.JPEG',
-                    '/content/procedures/esophagus/images/jc-post2.JPEG',
-                    '/content/procedures/esophagus/images/JC-pre-2.JPEG',
-                    '/content/procedures/esophagus/images/JC-pre1.JPEG'
+                    'https://dl.dropboxusercontent.com/s/kyboq2qf561275o/CRIM-NBI.JPEG',
+                    'https://dl.dropboxusercontent.com/s/0ho8ky7pyx94cx9/CRIM.JPEG',
+                    'https://dl.dropboxusercontent.com/s/ebmrhz9pjlipyq4/GAVE-p-RFA-1.JPEG',
+                    'https://dl.dropboxusercontent.com/s/k66vj7q52mtfw2n/GAVE-post-1.JPEG',
+                    'https://dl.dropboxusercontent.com/s/v6arubt0p0ihbjj/GAVE-Pre-1.JPEG',
+                    'https://dl.dropboxusercontent.com/s/n5e7ckvvplgo0dy/image-1.jpeg',
+                    'https://dl.dropboxusercontent.com/s/8ozo1ad3dlmp6el/image.jpeg',
+                    'https://dl.dropboxusercontent.com/s/o90hon1s1y8aoyh/jc-post-1.JPEG',
+                    'https://dl.dropboxusercontent.com/s/krgpklvoy8pgly5/jc-post2.JPEG',
+                    'https://dl.dropboxusercontent.com/s/r9rv16vmfnqq9n1/JC-pre-2.JPEG',
+                    'https://dl.dropboxusercontent.com/s/ydfscqpbbtvq8wz/JC-pre1.JPEG'
                 ],
                 videos: [
                     'https://www.dropbox.com/s/1ckj20x6zkt64nx/esophagus.mp4',

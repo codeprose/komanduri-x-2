@@ -155,6 +155,7 @@
     <Content Include="views\home\home.js" />
     <Content Include="views\images\images.css" />
     <Content Include="views\images\images.html" />
+    <Content Include="views\images\images.js" />
     <Content Include="views\library\library.css" />
     <Content Include="views\library\library.html" />
     <Content Include="views\library\library.js" />
