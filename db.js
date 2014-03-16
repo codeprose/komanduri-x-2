@@ -153,11 +153,11 @@
     };
 
     window.MyApp.db = {
-        //library: library,
-        //ryansLibrary: ryansStuff,
-        //categories: new DevExpress.data.ArrayStore(categories),
+        library: library,
+        ryansLibrary: ryansStuff,
+        categories: new DevExpress.data.ArrayStore(categories),
         demoCategories: demoCategories,
-        //getProcedureById: getProcedureById
+        getProcedureById: getProcedureById
     };
 
     console.log('db initiated');
