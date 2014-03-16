@@ -104,9 +104,6 @@
     <Content Include="js\localization\globalize.culture.fr.js" />
     <Content Include="js\localization\localization.default.js" />
     <Content Include="js\localization\localization.fr.js" />
-    <Content Include="layouts\Empty\EmptyLayout.css" />
-    <Content Include="layouts\Empty\EmptyLayout.html" />
-    <Content Include="layouts\Empty\EmptyLayout.js" />
     <Content Include="layouts\Navbar\NavbarLayout.css" />
     <Content Include="layouts\Navbar\NavbarLayout.html" />
     <Content Include="layouts\Navbar\NavbarLayout.js" />
@@ -154,27 +151,21 @@
     <Content Include="res\screen\windows-phone\screen-portrait.jpg" />
     <Content Include="views\guidelines\guidelines.css" />
     <Content Include="views\guidelines\guidelines.html" />
+    <Content Include="views\home\home.html" />
+    <Content Include="views\home\home.js" />
     <Content Include="views\images\images.css" />
     <Content Include="views\images\images.html" />
-    <Content Include="views\library\library-controller.js" />
-    <Content Include="views\library\library-index.html" />
-    <Content Include="views\library\library-style.css" />
+    <Content Include="views\library\library.css" />
+    <Content Include="views\library\library.html" />
+    <Content Include="views\library\library.js" />
     <Content Include="views\links\links.css" />
     <Content Include="views\links\links.html" />
-    <Content Include="views\procedure\guidelines-tile\guidelines-index.html" />
-    <Content Include="views\procedure\guidelines-tile\guidelines-style.css" />
-    <Content Include="views\procedure\images-tile\images-index.html" />
-    <Content Include="views\procedure\images-tile\images-style.css" />
-    <Content Include="views\procedure\links-tile\links-index.html" />
-    <Content Include="views\procedure\links-tile\links-style.css" />
-    <Content Include="views\procedure\procedure-controller.js" />
-    <Content Include="views\procedure\procedure-index.html" />
-    <Content Include="views\procedure\procedure-style.css" />
-    <Content Include="views\procedure\videos-tile\videos-index.html" />
-    <Content Include="views\procedure\videos-tile\videos-style.css" />
-    <Content Include="views\settings\settings-controller.js" />
-    <Content Include="views\settings\settings-index.html" />
-    <Content Include="views\settings\settings-style.css" />
+    <Content Include="views\procedure\procedure.css" />
+    <Content Include="views\procedure\procedure.html" />
+    <Content Include="views\procedure\procedure.js" />
+    <Content Include="views\settings\settings.css" />
+    <Content Include="views\settings\settings.html" />
+    <Content Include="views\settings\settings.js" />
     <Content Include="views\videos\videos.css" />
     <Content Include="views\videos\videos.html" />
     <Content Include="Web.config" />
@@ -192,9 +183,7 @@
     <None Include="js\jquery-2.0.3.min.map" />
     <None Include="res\screen\tizen\README.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="views\home\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
