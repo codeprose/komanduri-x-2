@@ -1,0 +1,54 @@
+﻿@media only screen and (max-width: 360px) {
+    .media-query-debug::before {
+        content: "media query ( < 360 ) fired"; 
+        font-weight: bold; 
+        display: block; 
+        text-align: center; 
+        background: rgba(255,255,0, 0.9); /* Semi-transparent yellow */ 
+        position: absolute; top: 0; left: 0; right: 0; z-index: 99;
+    }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 598px) {
+    .media-query-debug::before {
+        content: "media query (361 < 598) fired"; 
+        font-weight: bold; 
+        display: block; 
+        text-align: center; 
+        background: rgba(255,255,0, 0.9); /* Semi-transparent yellow */ 
+        position: absolute; top: 0; left: 0; right: 0; z-index: 99;
+    }  
+}
+
+@media only screen and (min-width: 599px) and (max-width: 601px) {
+    .media-query-debug::before {
+        content: "media query (599 < 601) fired"; 
+        font-weight: bold; 
+        display: block; 
+        text-align: center; 
+        background: rgba(255,255,0, 0.9); /* Semi-transparent yellow */ 
+        position: absolute; top: 0; left: 0; right: 0; z-index: 99;
+    }  
+}
+
+@media only screen and (min-width: 602px) and (max-width: 962px) {
+    .media-query-debug::before {
+        content: "media query (602 < 962) fired"; 
+        font-weight: bold; 
+        display: block; 
+        text-align: center; 
+        background: rgba(255,255,0, 0.9); /* Semi-transparent yellow */ 
+        position: absolute; top: 0; left: 0; right: 0; z-index: 99;
+    }    
+}
+
+@media only screen and (min-width: 963px) and (max-width: 1600px) {
+    .media-query-debug::before {
+        content: "media query (963 < 1600) fired"; 
+        font-weight: bold; 
+        display: block; 
+        text-align: center; 
+        background: rgba(255,255,0, 0.9); /* Semi-transparent yellow */ 
+        position: absolute; top: 0; left: 0; right: 0; z-index: 99;
+    }    
+}

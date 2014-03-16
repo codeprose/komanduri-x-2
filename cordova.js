@@ -1,1 +1,1 @@
-﻿// placeholder
+// This file is replaced by the native app packager

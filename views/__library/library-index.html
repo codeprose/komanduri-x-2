@@ -1,0 +1,40 @@
+﻿<div class="view-container" data-options="dxView: { name: 'library', title: 'My Library' }">
+    <div data-bind="dxList: { dataSource: listSource, grouped: true }">
+        <div data-options="dxTemplate: { name: 'item' }">
+            <div data-bind="if: (itemName === 'procedures' && data().length !== 0)">
+                <div data-bind="dxList: { dataSource: $data.data, itemClickAction: function(proc) { MyApp.app.navigate('procedure/' + proc.itemData.id); } }">
+                    <div data-bind="dxTemplate: { name: 'item' }">
+                        <span data-bind="text: $data.text"></span>
+                    </div>
+                </div>    
+            </div>
+            <div data-bind="if: (itemName === 'photos' && data().length !== 0)">
+                <div class="tile-row">
+                    <div class="tile-row" data-bind="dxGallery: { dataSource: $data.data, height: '100%', width: '100%' }"></div>                    
+                </div>                
+            </div>
+            <div data-bind="if: (itemName === 'videos' && data().length !== 0)">
+                <div class="tile-row">
+                    <div data-bind="dxGallery: { dataSource: $data.data, height: '100%', width: '100%' }">
+                        <div data-options="dxTemplate: { name: 'item' }">
+                            <div class="video-container">
+                                <iframe width="100%" height="100%" id="youtube-iframe" src="https://www.youtube.com/embed/_8leijapLQA"
+                                        frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>        
+                    </div>                    
+                </div>
+            </div>
+            <div data-bind="if: (itemName === 'guidelines' && data().length !== 0)">
+                <ul class="my-library-list" data-bind="foreach: $data.data">
+                    <li><a data-bind="text: name, attr: { href: url }"></a></li>
+                </ul>                
+            </div>
+            <div data-bind="if: (itemName === 'links' && data().length !== 0)">
+                <ul class="my-library-list" data-bind="foreach: $data.data">
+                    <li><a data-bind="text: url, attr: { href: url }"></a></li>
+                </ul>                
+            </div>
+        </div>
+    </div>
+</div>
