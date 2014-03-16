@@ -1,9 +1,0 @@
-﻿<div data-options="dxView: { name: 'home', title: 'Home' }">
-    <div id="home-nav-list" data-bind="dxList: { dataSource: MyApp.db.demoCategories, grouped: true, itemClickAction: navigateToProcedure, groupTemplate: 'group' }">
-        <div data-options="dxTemplate: { name: 'group' }">
-            <div class="group-button collapse" data-bind="dxAction: function (evt) { $parent.onGroupItemClicked(evt); }">
-                <div class="group-caption" data-bind="text: key"></div>
-            </div>
-        </div>
-    </div>
-</div>
