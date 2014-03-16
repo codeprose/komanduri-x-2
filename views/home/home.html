@@ -6,8 +6,8 @@
             </div>
         </div>
         <div data-options="dxTemplate: { name: 'item' }">
+            <div data-bind="text: text"></div>
             <div data-bind="dxToolbar: { dataSource: [ 
-                { location: 'left', text: $data.text }, 
                 { location: 'right', widget: 'button', options: { icon: 'image' }}, 
                 { location: 'right', widget: 'button', options: { icon: 'photo' }}, 
                 { location: 'right', widget: 'button', options: { icon: 'doc' }} ] }"></div>                
