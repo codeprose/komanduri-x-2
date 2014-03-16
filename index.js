@@ -1,5 +1,9 @@
 ﻿"use strict";
 
+$(function () {
+    FastClick.attach(document.body);
+});
+
 window.MyApp = window.MyApp || {};
 
 $(function() {

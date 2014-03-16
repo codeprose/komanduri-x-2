@@ -51,10 +51,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app.main.js" />
+    <Content Include=".gitignore" />
+    <Content Include="app.config.js" />
     <Content Include="cordova.js" />
-    <Content Include="debug-pgb.js" />
+    <Content Include="css\dx.android.holo-dark.css" />
+    <Content Include="css\dx.common.css" />
+    <Content Include="css\dx.generic.light.css" />
+    <Content Include="css\dx.ios.default.css" />
+    <Content Include="css\dx.tizen.black.css" />
+    <Content Include="css\dx.win8.black.css" />
     <Content Include="icon.png" />
+    <Content Include="index.css" />
     <Content Include="index.html" />
     <Content Include="config.xml" />
     <Content Include="content\procedures\ercp\images\image-1.png" />
@@ -87,54 +94,22 @@
     <Content Include="content\procedures\polyps\images\post emr jan 2014.JPEG" />
     <Content Include="db.js" />
     <Content Include="img\logo.png" />
-    <Content Include="main.html" />
-    <Content Include="Lib\css\dx.android.holo-dark.css" />
-    <Content Include="Lib\css\dx.android.holo-light.css" />
-    <Content Include="Lib\css\dx.common.css" />
-    <Content Include="Lib\css\dx.generic.light.css" />
-    <Content Include="Lib\css\dx.ios.default.css" />
-    <Content Include="Lib\css\dx.tizen.black.css" />
-    <Content Include="Lib\css\dx.tizen.white.css" />
-    <Content Include="Lib\css\dx.win8.black.css" />
-    <Content Include="Lib\css\dx.win8.white.css" />
-    <Content Include="Lib\js\dx.phonejs.debug.js" />
-    <Content Include="Lib\js\dx.phonejs.js" />
-    <Content Include="Lib\js\globalize.js" />
-    <Content Include="Lib\js\globalize.min.js" />
-    <Content Include="Lib\js\jquery-1.10.2.js" />
-    <Content Include="Lib\js\jquery-1.10.2.min.js" />
-    <Content Include="Lib\js\jquery-2.0.3.js" />
-    <Content Include="Lib\js\jquery-2.0.3.min.js" />
-    <Content Include="Lib\js\knockout-3.0.0.debug.js" />
-    <Content Include="Lib\js\knockout-3.0.0.js" />
-    <Content Include="Lib\js\localization\dx.phonejs.de.js" />
-    <Content Include="Lib\js\localization\dx.phonejs.fr.js" />
-    <Content Include="Lib\js\localization\dx.phonejs.ja.js" />
-    <Content Include="Lib\js\localization\dx.phonejs.ru.js" />
-    <Content Include="Lib\js\modules\dx.module-core.debug.js" />
-    <Content Include="Lib\js\modules\dx.module-core.js" />
-    <Content Include="Lib\js\modules\dx.module-framework.debug.js" />
-    <Content Include="Lib\js\modules\dx.module-framework.js" />
-    <Content Include="Lib\js\modules\dx.module-widgets.debug.js" />
-    <Content Include="Lib\js\modules\dx.module-widgets.js" />
-    <Content Include="Lib\layouts\Empty\EmptyLayout.css" />
-    <Content Include="Lib\layouts\Empty\EmptyLayout.html" />
-    <Content Include="Lib\layouts\Empty\EmptyLayout.js" />
-    <Content Include="Lib\layouts\Navbar\NavbarLayout.css" />
-    <Content Include="Lib\layouts\Navbar\NavbarLayout.html" />
-    <Content Include="Lib\layouts\Navbar\NavbarLayout.js" />
-    <Content Include="Lib\layouts\Pivot\PivotLayout.css" />
-    <Content Include="Lib\layouts\Pivot\PivotLayout.html" />
-    <Content Include="Lib\layouts\Pivot\PivotLayout.js" />
-    <Content Include="Lib\layouts\Simple\SimpleLayout.css" />
-    <Content Include="Lib\layouts\Simple\SimpleLayout.html" />
-    <Content Include="Lib\layouts\Simple\SimpleLayout.js" />
-    <Content Include="Lib\layouts\SlideOut\SlideOutLayout.css" />
-    <Content Include="Lib\layouts\SlideOut\SlideOutLayout.html" />
-    <Content Include="Lib\layouts\SlideOut\SlideOutLayout.js" />
-    <Content Include="Lib\layouts\Split\SplitLayout.css" />
-    <Content Include="Lib\layouts\Split\SplitLayout.html" />
-    <Content Include="Lib\layouts\Split\SplitLayout.js" />
+    <Content Include="index.js" />
+    <Content Include="js\dx.phonejs.js" />
+    <Content Include="js\fastclick.js" />
+    <Content Include="js\globalize.min.js" />
+    <Content Include="js\jquery-1.10.2.min.js" />
+    <Content Include="js\jquery-2.0.3.min.js" />
+    <Content Include="js\knockout-3.0.0.js" />
+    <Content Include="js\localization\globalize.culture.fr.js" />
+    <Content Include="js\localization\localization.default.js" />
+    <Content Include="js\localization\localization.fr.js" />
+    <Content Include="layouts\Empty\EmptyLayout.css" />
+    <Content Include="layouts\Empty\EmptyLayout.html" />
+    <Content Include="layouts\Empty\EmptyLayout.js" />
+    <Content Include="layouts\Navbar\NavbarLayout.css" />
+    <Content Include="layouts\Navbar\NavbarLayout.html" />
+    <Content Include="layouts\Navbar\NavbarLayout.js" />
     <Content Include="res\icon\android\icon-36-ldpi.png" />
     <Content Include="res\icon\android\icon-48-mdpi.png" />
     <Content Include="res\icon\android\icon-72-hdpi.png" />
@@ -177,12 +152,15 @@
     <Content Include="res\screen\ios\screen-iphone-portrait.png" />
     <Content Include="res\screen\webos\screen-64.png" />
     <Content Include="res\screen\windows-phone\screen-portrait.jpg" />
-    <Content Include="views\home.js" />
-    <Content Include="views\home.html" />
-    <Content Include="views\home.css" />
+    <Content Include="views\guidelines\guidelines.css" />
+    <Content Include="views\guidelines\guidelines.html" />
+    <Content Include="views\images\images.css" />
+    <Content Include="views\images\images.html" />
     <Content Include="views\library\library-controller.js" />
     <Content Include="views\library\library-index.html" />
     <Content Include="views\library\library-style.css" />
+    <Content Include="views\links\links.css" />
+    <Content Include="views\links\links.html" />
     <Content Include="views\procedure\guidelines-tile\guidelines-index.html" />
     <Content Include="views\procedure\guidelines-tile\guidelines-style.css" />
     <Content Include="views\procedure\images-tile\images-index.html" />
@@ -197,6 +175,8 @@
     <Content Include="views\settings\settings-controller.js" />
     <Content Include="views\settings\settings-index.html" />
     <Content Include="views\settings\settings-style.css" />
+    <Content Include="views\videos\videos.css" />
+    <Content Include="views\videos\videos.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -209,6 +189,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="js\jquery-2.0.3.min.map" />
     <None Include="res\screen\tizen\README.md" />
   </ItemGroup>
   <ItemGroup>
