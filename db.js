@@ -24,8 +24,18 @@
         { key: 'links', items: ko.observableArray([]) }
     ];
 
+    
+
+//    1. Esophagus
+//    2. Stomach
+//    3. Small Intestine
+//    4. Colon
+//    5. Biliary
+//    6. Pancreas
+//    7. Miscellaneous
+
     var demoCategories = [
-        { key: 'Category 1', items: [
+        { key: 'Esophagus', items: [
             { 
                 text: "RFA for Barrett's Esophagus",
                 id: 'esophagus',
@@ -57,7 +67,37 @@
                 ]
             }
         ] },
-        { key: 'Category 2', items: [
+        { key: 'Stomach', items: [] },
+        { key: 'Small Intestine', items: [] },
+        { key: 'Colon', items: [
+            {
+                text: 'EMR for Complex Polyps',
+                id: 'polyps',
+                links: [
+                        { url: 'http://www.sciencedirect.com/science/article/pii/S1542356513014547' },
+                        { url: 'http://www.sciencedirect.com/science/article/pii/S0016510713001909' },
+                        { url: 'http://www.sciencedirect.com/science/article/pii/S001651071200226X' }
+                    ],
+                photos: [
+                        '/content/procedures/polyps/images/channel%20colon%2023.jpeg',
+                        '/content/procedures/polyps/images/channel colon final.jpeg',
+                        '/content/procedures/polyps/images/channel colon.jpeg',
+                        '/content/procedures/polyps/images/colon emr 1.jpeg',
+                        '/content/procedures/polyps/images/colon emr 2.jpeg',
+                        '/content/procedures/polyps/images/colon emr closure cook clips.jpeg',
+                        '/content/procedures/polyps/images/colon emr defect.jpeg',
+                        '/content/procedures/polyps/images/polyp jan 14.jpeg',
+                        '/content/procedures/polyps/images/post emr jan 2014.jpeg'
+                    ],
+                videos: [
+                    ],
+                guidelines: [
+                        { name: 'ASGE Colon EMR Talk (pdf)', url: '/content/procedures/ercp/guidelines/ASGE%20Colon%20EMR%20Talk.pdf' }
+                    ]
+            }
+        ]},
+        { key: 'Biliary', items: [] },
+        { key: 'Pancreas', items: [
             {
                 text: 'Difficult ERCP',
                 id: 'ercp',
@@ -81,33 +121,9 @@
                 guidelines: [
                     { name: 'Chicago Live SK ERCP 2012 (pdf)', url: '/content/procedures/ercp/guidelines/Chicago%20Live%20SK%20ERCP%202012.pdf' }
                 ]
-            },
-            {
-                text: 'EMR for Complex Polyps',
-                id: 'polyps',
-                links: [
-                    { url: 'http://www.sciencedirect.com/science/article/pii/S1542356513014547'},
-                    { url: 'http://www.sciencedirect.com/science/article/pii/S0016510713001909'},
-                    { url: 'http://www.sciencedirect.com/science/article/pii/S001651071200226X'}
-                ],
-                photos: [
-                    '/content/procedures/polyps/images/channel%20colon%2023.jpeg',
-                    '/content/procedures/polyps/images/channel colon final.jpeg',
-                    '/content/procedures/polyps/images/channel colon.jpeg',
-                    '/content/procedures/polyps/images/colon emr 1.jpeg',
-                    '/content/procedures/polyps/images/colon emr 2.jpeg',
-                    '/content/procedures/polyps/images/colon emr closure cook clips.jpeg',
-                    '/content/procedures/polyps/images/colon emr defect.jpeg',
-                    '/content/procedures/polyps/images/polyp jan 14.jpeg',
-                    '/content/procedures/polyps/images/post emr jan 2014.jpeg'
-                ],
-                videos: [
-                ],
-                guidelines: [
-                    { name: 'ASGE Colon EMR Talk (pdf)', url: '/content/procedures/ercp/guidelines/ASGE%20Colon%20EMR%20Talk.pdf' }
-                ]
             }
-        ] }
+        ] },
+        { key: 'Miscellaneous', items: [] }
     ];
 
     var categories = [
