@@ -142,6 +142,7 @@
     <Content Include="views\settings\settings.js" />
     <Content Include="views\videos\videos.css" />
     <Content Include="views\videos\videos.html" />
+    <Content Include="views\videos\videos.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

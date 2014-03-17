@@ -1,15 +1,15 @@
-﻿<div class="tile-widget" data-options="dxView: { name: 'videos' }">
-    <div class="tile-title dx-clearfix"><span>Video Gallery </span></div>
-    <div class="tile-content">
-<!--        <div id="video-gallery" data-bind="dxGallery: { dataSource: currentProcedure.videos, height: '100%', width: '100%' }">
-            <div data-options="dxTemplate: { name: 'item' }">-->
-            <div data-bind="foreach: currentProcedure.videos">
-                <div class="video-container">
-                    <div class="add-to-library-button" data-bind="dxButton: { icon: 'favorites', text: 'Add video to Favorites', clickAction: function(_ignored) { addVideo($('#photo-gallery').dxGallery('instance').option('selectedIndex')); } }"></div>
-                    <iframe width="100%" height="100%" id="youtube-iframe" src="https://www.youtube.com/embed/_8leijapLQA"
-                        frameborder="0" allowfullscreen></iframe>
-                </div>
+﻿<div data-options="dxView: { name: 'videos', title: 'VIDEOS' }">
+    <div style="height: 90%">
+        <div id="photo-gallery" data-bind="dxGallery: { dataSource: videos, height: '100%', width: '100%' }">
+            <div data-options="dxTemplate: { name: 'item' }">
+                <!--<div class="super-impose add-to-library-button" data-bind="dxButton: { icon: 'favorites', text: 'Add to Favorites', clickAction: function(clickEvent) { $parent.addImage($('#photo-gallery').dxGallery('instance').option('selectedIndex'), clickEvent); } }"></div>-->
+                <video controls>
+                    <source type="video/mp4" data-bind="attr: { src: $data.sources.mp4 }">
+                    <source type="video/ogg" data-bind="attr: { src: $data.sources.ogg }">
+                    <source type="video/webm" data-bind="attr: { src: $data.sources.webm }">              
+                    <p>Video is not supported by this device. View the original content <a data-bind="attr: { href: $data.fallback }">here</a>.</p>
+                </video>
             </div>
-        <!--</div>-->        
+        </div>        
     </div>
 </div>

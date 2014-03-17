@@ -56,9 +56,14 @@
                     'https://dl.dropboxusercontent.com/s/ydfscqpbbtvq8wz/JC-pre1.JPEG'
                 ],
                 videos: [
-                    'https://dl.dropboxusercontent.com/s/1ckj20x6zkt64nx/esophagus.mp4',
-                    'https://dl.dropboxusercontent.com/s/1ckj20x6zkt64nx/esophagus.mp4',
-                    'https://dl.dropboxusercontent.com/s/1ckj20x6zkt64nx/esophagus.mp4'
+                    { sources:
+                        {
+                            mp4: 'https://dl.dropboxusercontent.com/s/xq57ukw5l0jdlt7/AVM-RFA-2.mp4',
+                            ogg: 'https://dl.dropboxusercontent.com/s/5x28hmlc4jqrx4y/AVM-RFA-2.ogg', 
+                            webm: 'https://dl.dropboxusercontent.com/s/ue3693xnhllsv1l/AVM-RFA-2.webm'
+                        },
+                        fallback: 'https://www.dropbox.com/s/xq57ukw5l0jdlt7/AVM-RFA-2.mp4' 
+                    }
                 ],
                 guidelines: [
                     'https://dl.dropboxusercontent.com/s/1jadkygm2uvvafp/Slide01.jpg',
