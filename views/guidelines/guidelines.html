@@ -1,12 +1,10 @@
-﻿<div data-options="dxView: { name: 'guidelines' }">
-    <div class="tile-title">Guidelines</div>
-    <div class="tile-link-list">
-        <ul data-bind="foreach: currentProcedure.guidelines">
-            <li class="link-list-item">
-                <span data-bind="dxButton: { icon: 'favorites', clickAction: function(evt) { MyApp.db.ryansLibrary[3].items.push(evt.model); } }"></span>
-                <span>&nbsp;</span>
-                <a data-bind="attr: { href: url }, text: name"></a>
-            </li>
-        </ul>        
+﻿<div data-options="dxView: { name: 'guidelines', title: 'GUIDELINES' }">
+    <div style="height: 90%">
+        <div id="photo-gallery" data-bind="dxGallery: { dataSource: guidelines, height: '100%', width: '100%' }">
+            <div data-options="dxTemplate: { name: 'item' }">
+                <!--<div class="super-impose add-to-library-button" data-bind="dxButton: { icon: 'favorites', text: 'Add to Favorites', clickAction: function(clickEvent) { $parent.addImage($('#photo-gallery').dxGallery('instance').option('selectedIndex'), clickEvent); } }"></div>-->
+                <img data-bind="attr: { src: String($data)  }" />
+            </div>
+        </div>        
     </div>
 </div>

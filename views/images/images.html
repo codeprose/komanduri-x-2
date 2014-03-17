@@ -1,11 +1,4 @@
-﻿<!--<div class="tile-widget" data-options="dxView: { name: 'images' }">
-        <div class="tile-title dx-clearfix"><span>Image Gallery </span></div>
-        <div class="tile-content">
-            <div class="add-to-library-button" data-bind="dxButton: { icon: 'favorites', text: 'Add image to Favorites', clickAction: function(_ignored) { addImage($('#photo-gallery').dxGallery('instance').option('selectedIndex')); } }"></div>
-            <div id="photo-gallery" data-bind="dxGallery: { dataSource: currentProcedure.photos, height: '100%', width: '100%' }"></div>        
-        </div>
-    </div>-->
-<div data-options="dxView: { name: 'images', title: 'IMAGES' }">
+﻿<div data-options="dxView: { name: 'images', title: 'IMAGES' }">
     <!--<div class="dx-clearfix"><span>Image Gallery </span></div>-->
     <div style="height: 90%">
         <div id="photo-gallery" data-bind="dxGallery: { dataSource: photos, height: '100%', width: '100%' }">

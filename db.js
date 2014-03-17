@@ -61,7 +61,43 @@
                     'https://dl.dropboxusercontent.com/s/1ckj20x6zkt64nx/esophagus.mp4'
                 ],
                 guidelines: [
-                    { name: 'EET 2014 (pdf)', url: '/content/procedures/esophagus/guidelines/EET%202014.pdf' }
+                    'https://dl.dropboxusercontent.com/s/1jadkygm2uvvafp/Slide01.jpg',
+                    'https://dl.dropboxusercontent.com/s/ezfdj0d6lltglsk/Slide02.jpg',
+                    'https://dl.dropboxusercontent.com/s/bzsw2gd5u5oaen9/Slide03.jpg',
+                    'https://dl.dropboxusercontent.com/s/npqxgik46amdebz/Slide04.jpg',
+                    'https://dl.dropboxusercontent.com/s/p51se5k11hfx013/Slide05.jpg',
+                    'https://dl.dropboxusercontent.com/s/ol38fek5jesml9l/Slide06.jpg',
+                    'https://dl.dropboxusercontent.com/s/uaz4n3fxouz78nq/Slide07.jpg',
+                    'https://dl.dropboxusercontent.com/s/w6nj4f188qoggcf/Slide08.jpg',
+                    'https://dl.dropboxusercontent.com/s/elr3cqzck6f6tom/Slide09.jpg',
+                    'https://dl.dropboxusercontent.com/s/5vlqrejfsaqhfdx/Slide10.jpg',
+                    'https://dl.dropboxusercontent.com/s/wtvteg0hkarnga6/Slide11.jpg',
+                    'https://dl.dropboxusercontent.com/s/gmimqzl8xrivo9l/Slide12.jpg',
+                    'https://dl.dropboxusercontent.com/s/1e4xiznvr2uh7bu/Slide13.jpg',
+                    'https://dl.dropboxusercontent.com/s/qksl1tsr75vbnwk/Slide14.jpg',
+                    'https://dl.dropboxusercontent.com/s/3jgzlt97k30fkh8/Slide15.jpg',
+                    'https://dl.dropboxusercontent.com/s/ugf5lpjstxcl2t2/Slide16.jpg',
+                    'https://dl.dropboxusercontent.com/s/1sh2wikhmensjmi/Slide17.jpg',
+                    'https://dl.dropboxusercontent.com/s/cwl1calizlied4y/Slide18.jpg',
+                    'https://dl.dropboxusercontent.com/s/um09qn76n3o9t22/Slide19.jpg',
+                    'https://dl.dropboxusercontent.com/s/vx1xq2in4s06264/Slide20.jpg',
+                    'https://dl.dropboxusercontent.com/s/q5mdtbup99xal7u/Slide21.jpg',
+                    'https://dl.dropboxusercontent.com/s/hqtibj4jskakwlm/Slide22.jpg',
+                    'https://dl.dropboxusercontent.com/s/awlijpgsfdguakh/Slide23.jpg',
+                    'https://dl.dropboxusercontent.com/s/sr95ilxw9j1y7vk/Slide24.jpg',
+                    'https://dl.dropboxusercontent.com/s/00ip8wue5x3txkw/Slide25.jpg',
+                    'https://dl.dropboxusercontent.com/s/bt2vuk6smol8rbh/Slide26.jpg',
+                    'https://dl.dropboxusercontent.com/s/vs0a7s11d4h9nc2/Slide27.jpg',
+                    'https://dl.dropboxusercontent.com/s/bs158rb7uhlfti7/Slide28.jpg',
+                    'https://dl.dropboxusercontent.com/s/aj46j3zxfjfk62h/Slide29.jpg',
+                    'https://dl.dropboxusercontent.com/s/2anzywv8xtisqms/Slide30.jpg',
+                    'https://dl.dropboxusercontent.com/s/dhnddb6y9chcaqa/Slide31.jpg',
+                    'https://dl.dropboxusercontent.com/s/ay70bb8hqvg967o/Slide32.jpg',
+                    'https://dl.dropboxusercontent.com/s/zzkcaqnr6esb1h6/Slide33.jpg',
+                    'https://dl.dropboxusercontent.com/s/vde5sq6jsdfixnt/Slide34.jpg',
+                    'https://dl.dropboxusercontent.com/s/y7uwyh7x7arx84j/Slide35.jpg',
+                    'https://dl.dropboxusercontent.com/s/64hqkkoo099k9te/Slide36.jpg'
+                    //{ name: 'EET 2014 (pdf)', url: '/content/procedures/esophagus/guidelines/EET%202014.pdf' }
                 ]
             }
         ]

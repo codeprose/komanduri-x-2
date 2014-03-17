@@ -123,6 +123,7 @@
     <Content Include="res\screen\windows-phone\screen-portrait.jpg" />
     <Content Include="views\guidelines\guidelines.css" />
     <Content Include="views\guidelines\guidelines.html" />
+    <Content Include="views\guidelines\guidelines.js" />
     <Content Include="views\home\home.html" />
     <Content Include="views\home\home.js" />
     <Content Include="views\images\images.css" />
