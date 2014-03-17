@@ -220,6 +220,11 @@
         addImageToFavorites: function (imageUrl) {
             favorites[1].items.push(imageUrl);
             favorites[1].items.apply();
+        },
+        
+        addVideoToFavorites: function (videoUrl) {
+            favorites[2].items.push(videoUrl);
+            favorites[2].items.apply();
         }
     };
 
