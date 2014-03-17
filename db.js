@@ -58,9 +58,9 @@
                     'https://dl.dropboxusercontent.com/s/ydfscqpbbtvq8wz/JC-pre1.JPEG'
                 ],
                 videos: [
-                    'https://www.dropbox.com/s/1ckj20x6zkt64nx/esophagus.mp4',
-                    'https://www.dropbox.com/s/1ckj20x6zkt64nx/esophagus.mp4',
-                    'https://www.dropbox.com/s/1ckj20x6zkt64nx/esophagus.mp4'
+                    'https://dl.dropboxusercontent.com/s/1ckj20x6zkt64nx/esophagus.mp4',
+                    'https://dl.dropboxusercontent.com/s/1ckj20x6zkt64nx/esophagus.mp4',
+                    'https://dl.dropboxusercontent.com/s/1ckj20x6zkt64nx/esophagus.mp4'
                 ],
                 guidelines: [
                     { name: 'EET 2014 (pdf)', url: '/content/procedures/esophagus/guidelines/EET%202014.pdf' }
@@ -79,15 +79,15 @@
                         { url: 'http://www.sciencedirect.com/science/article/pii/S001651071200226X' }
                     ],
                 photos: [
-                        '/content/procedures/polyps/images/channel%20colon%2023.jpeg',
-                        '/content/procedures/polyps/images/channel colon final.jpeg',
-                        '/content/procedures/polyps/images/channel colon.jpeg',
-                        '/content/procedures/polyps/images/colon emr 1.jpeg',
-                        '/content/procedures/polyps/images/colon emr 2.jpeg',
-                        '/content/procedures/polyps/images/colon emr closure cook clips.jpeg',
-                        '/content/procedures/polyps/images/colon emr defect.jpeg',
-                        '/content/procedures/polyps/images/polyp jan 14.jpeg',
-                        '/content/procedures/polyps/images/post emr jan 2014.jpeg'
+                        'https://dl.dropboxusercontent.com/s/2fq82vhyd74eneu/channel%20colon%2023.JPEG',
+                        'https://dl.dropboxusercontent.com/s/dwzzsx7bb0z8ing/channel%20colon%20final.JPEG',
+                        'https://dl.dropboxusercontent.com/s/0fffb7cen9f657u/channel%20colon.JPEG',
+                        'https://dl.dropboxusercontent.com/s/uu3fogsxo828ghq/colon%20emr%201.JPEG',
+                        'https://dl.dropboxusercontent.com/s/yhacn5w8gtgeu3z/colon%20emr%202.JPEG',
+                        'https://dl.dropboxusercontent.com/s/r72spk945s7givq/colon%20emr%20closure%20cook%20clips.JPEG',
+                        'https://dl.dropboxusercontent.com/s/d4g5vwh7debfq7k/colon%20emr%20defect.JPEG',
+                        'https://dl.dropboxusercontent.com/s/tuwf3jxp6xrt01k/polyp%20jan%2014.JPEG',
+                        'https://dl.dropboxusercontent.com/s/gb4bqkfdzsk3h9c/post%20emr%20jan%202014.JPEG'
                     ],
                 videos: [
                     ],
@@ -108,14 +108,14 @@
                     { url: 'http://www.nejm.org/doi/full/10.1056/NEJMct1208450' }
                 ],
                 photos: [
-                    '/content/procedures/ercp/images/image.png',
-                    '/content/procedures/ercp/images/image-1.png',
-                    '/content/procedures/ercp/images/image-2.png',
-                    '/content/procedures/ercp/images/image-3.png',
-                    '/content/procedures/ercp/images/image-4.png',
-                    '/content/procedures/ercp/images/image-5.png',
-                    '/content/procedures/ercp/images/image-6.png',
-                    '/content/procedures/ercp/images/image-7.png'
+                    'https://dl.dropboxusercontent.com/s/jvvqnp8r77evuuv/image.png',
+                    'https://dl.dropboxusercontent.com/s/tjyd1pp372xzibl/image-1.png',
+                    'https://dl.dropboxusercontent.com/s/ugvv6uxh8k9zbn9/image-2.png',
+                    'https://dl.dropboxusercontent.com/s/9fqlst03tagl0qz/image-3.png',
+                    'https://dl.dropboxusercontent.com/s/j90fdcwdvxu5iwn/image-4.png',
+                    'https://dl.dropboxusercontent.com/s/pkf8ylda0nunn0g/image-5.png',
+                    'https://dl.dropboxusercontent.com/s/4q99oznpfxrteci/image-6.png',
+                    'https://dl.dropboxusercontent.com/s/nr6eun95lk6w9jj/image-7.png'
                 ],
                 videos: [],
                 guidelines: [

@@ -64,34 +64,6 @@
     <Content Include="index.css" />
     <Content Include="index.html" />
     <Content Include="config.xml" />
-    <Content Include="content\procedures\ercp\images\image-1.png" />
-    <Content Include="content\procedures\ercp\images\image-2.png" />
-    <Content Include="content\procedures\ercp\images\image-3.png" />
-    <Content Include="content\procedures\ercp\images\image-4.png" />
-    <Content Include="content\procedures\ercp\images\image-5.png" />
-    <Content Include="content\procedures\ercp\images\image-6.png" />
-    <Content Include="content\procedures\ercp\images\image-7.png" />
-    <Content Include="content\procedures\ercp\images\image.png" />
-    <Content Include="content\procedures\esophagus\images\CRIM-NBI.JPEG" />
-    <Content Include="content\procedures\esophagus\images\CRIM.JPEG" />
-    <Content Include="content\procedures\esophagus\images\GAVE-p-RFA-1.JPEG" />
-    <Content Include="content\procedures\esophagus\images\GAVE-post-1.JPEG" />
-    <Content Include="content\procedures\esophagus\images\GAVE-Pre-1.JPEG" />
-    <Content Include="content\procedures\esophagus\images\image-1.jpeg" />
-    <Content Include="content\procedures\esophagus\images\image.jpeg" />
-    <Content Include="content\procedures\esophagus\images\jc-post-1.JPEG" />
-    <Content Include="content\procedures\esophagus\images\jc-post2.JPEG" />
-    <Content Include="content\procedures\esophagus\images\JC-pre-2.JPEG" />
-    <Content Include="content\procedures\esophagus\images\JC-pre1.JPEG" />
-    <Content Include="content\procedures\polyps\images\channel colon 23.JPEG" />
-    <Content Include="content\procedures\polyps\images\channel colon final.JPEG" />
-    <Content Include="content\procedures\polyps\images\channel colon.JPEG" />
-    <Content Include="content\procedures\polyps\images\colon emr 1.JPEG" />
-    <Content Include="content\procedures\polyps\images\colon emr 2.JPEG" />
-    <Content Include="content\procedures\polyps\images\colon emr closure cook clips.JPEG" />
-    <Content Include="content\procedures\polyps\images\colon emr defect.JPEG" />
-    <Content Include="content\procedures\polyps\images\polyp jan 14.JPEG" />
-    <Content Include="content\procedures\polyps\images\post emr jan 2014.JPEG" />
     <Content Include="db.js" />
     <Content Include="img\logo.png" />
     <Content Include="index.js" />
@@ -184,7 +156,11 @@
     <None Include="js\jquery-2.0.3.min.map" />
     <None Include="res\screen\tizen\README.md" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="content\procedures\ercp\" />
+    <Folder Include="content\procedures\esophagus\" />
+    <Folder Include="content\procedures\polyps\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
