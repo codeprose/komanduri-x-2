@@ -4,26 +4,17 @@
         <div class="procedure-add"><div data-bind="dxButton: { text: 'Add entire procedure to Favorites', icon: 'favorites', clickAction: function () { addProcedure(); } }"></div></div>
     </div>
     <div style="clear: both"></div>
-    <!--    <div class="tiles view-container" data-bind="dxScrollView: {}">
-                <div class="tile-row">
-                    <div class="tile images">
-                        <div class="tile-widget-placeholder" data-options="dxViewPlaceholder: { viewName: 'images' }"></div>
-                    </div>
-                    <div class="tile links">
-                        <div data-options="dxViewPlaceholder: { viewName: 'links' }"></div>
-                    </div>
-                </div>
-                <div class="tile-row">
-                    <div class="tile guidelines">
-                        <div data-options="dxViewPlaceholder: { viewName: 'guidelines' }"></div>
-                    </div>
-                    <div class="tile videos">
-                        <div class="tile-widget-placeholder" data-options="dxViewPlaceholder: { viewName: 'videos' }"></div>
-                    </div>
-                </div>
-            </div>-->
     <div class="dx-full-height">
-        <div style="height: 30%; width: 100%;" data-bind="dxButton: { text: 'Image Gallery', icon: 'image', clickAction: '#images/' + procedureId }"></div>
+        <div style="height: 30%; width: 100%;" class="dx-button" data-bind="dxAction: '#images/' + currentProcedure.id">
+            <div class="dx-button-content embedded-toolbar">
+                <div style="height: 30%; padding-bottom: 10%" class="dx-button-text">Image Gallery</div>
+                <div data-bind="dxToolbar: { dataSource: currentProcedure.photos }">
+                    <div data-options="dxTemplate: { name: 'item' }">
+                        <img style="max-height: 50%;" data-bind="attr: { src: String($data) }"/>
+                    </div>
+                </div>                    
+            </div>
+        </div>
         <div style="height: 30%; width: 100%;" data-bind="dxButton: { text: 'Video Gallery' }"></div>
         <div style="height: 30%; width: 100%;" data-bind="dxButton: { text: 'Guidelines and Literature' }"></div>
     </div>

@@ -9,9 +9,7 @@
                 </div>    
             </div>
             <div data-bind="if: (itemName === 'photos' && data().length !== 0)">
-                <div class="tile-row">
-                    <div class="tile-row" data-bind="dxGallery: { dataSource: $data.data, height: '100%', width: '100%' }"></div>                    
-                </div>                
+                <div data-bind="dxGallery: { dataSource: $data.data, height: '100%', width: '100%' }"></div>                                   
             </div>
             <div data-bind="if: (itemName === 'videos' && data().length !== 0)">
                 <div class="tile-row">

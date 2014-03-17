@@ -2,10 +2,6 @@
     MyApp.home = function (params) {
         var viewModel = {
 
-            navigateToProcedure: function (itemClicked) {
-                MyApp.app.navigate('procedure/' + itemClicked.itemData.id);
-            },
-
             onGroupItemClicked: function (evt) {
                 $('#home-nav-list').find('.dx-list-item').hide();
 

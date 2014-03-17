@@ -1,4 +1,18 @@
-﻿.tile-row {
+﻿.embedded-toolbar > div.dx-toolbar.dx-widget.dx-feedback, .embedded-toolbar > * > .dx-toolbar-items-container, .embedded-toolbar > * > .dx-toolbar-center 
+{
+    background: transparent;
+    background-color: transparent;
+    border: transparent;
+    border-color: transparent; 
+    
+    -webkit-box-shadow: 0 0px 0 transparent;
+    -moz-box-shadow: 0 0px 0 transparent;
+    -ms-box-shadow: 0 0px 0 transparent;
+    -o-box-shadow: 0 0px 0 transparent;
+    box-shadow: 0 0px 0 transparent;  
+}
+
+.tile-row {
     clear: both;
     width: 100%;
 }

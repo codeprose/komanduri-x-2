@@ -16,7 +16,7 @@
         { key: 'My Links', items: [] }
     ]);
 
-    var ryansStuff = [
+    var favorites = [
         { key: 'procedures', items: ko.observableArray([]) },
         { key: 'photos', items: ko.observableArray([]) },
         { key: 'videos', items: ko.observableArray([]) },
@@ -24,19 +24,17 @@
         { key: 'links', items: ko.observableArray([]) }
     ];
 
-    
-
-//    1. Esophagus
-//    2. Stomach
-//    3. Small Intestine
-//    4. Colon
-//    5. Biliary
-//    6. Pancreas
-//    7. Miscellaneous
+    //    1. Esophagus
+    //    2. Stomach
+    //    3. Small Intestine
+    //    4. Colon
+    //    5. Biliary
+    //    6. Pancreas
+    //    7. Miscellaneous
 
     var demoCategories = [
         { key: 'Esophagus', items: [
-            { 
+            {
                 text: "RFA for Barrett's Esophagus",
                 id: 'esophagus',
                 links: [
@@ -66,7 +64,8 @@
                     { name: 'EET 2014 (pdf)', url: '/content/procedures/esophagus/guidelines/EET%202014.pdf' }
                 ]
             }
-        ] },
+        ]
+        },
         { key: 'Stomach', items: [] },
         { key: 'Small Intestine', items: [] },
         { key: 'Colon', items: [
@@ -95,7 +94,8 @@
                         { name: 'ASGE Colon EMR Talk (pdf)', url: '/content/procedures/ercp/guidelines/ASGE%20Colon%20EMR%20Talk.pdf' }
                     ]
             }
-        ]},
+        ]
+        },
         { key: 'Biliary', items: [] },
         { key: 'Pancreas', items: [
             {
@@ -122,7 +122,8 @@
                     { name: 'Chicago Live SK ERCP 2012 (pdf)', url: '/content/procedures/ercp/guidelines/Chicago%20Live%20SK%20ERCP%202012.pdf' }
                 ]
             }
-        ] },
+        ]
+        },
         { key: 'Miscellaneous', items: [] }
     ];
 
@@ -170,10 +171,15 @@
 
     window.MyApp.db = {
         library: library,
-        ryansLibrary: ryansStuff,
+        ryansLibrary: favorites,
         categories: new DevExpress.data.ArrayStore(categories),
         demoCategories: demoCategories,
-        getProcedureById: getProcedureById
+        getProcedureById: getProcedureById,
+
+        addImageToFavorites: function (imageUrl) {
+            favorites[1].items.push(imageUrl);
+            favorites[1].items.apply();
+        }
     };
 
     console.log('db initiated');

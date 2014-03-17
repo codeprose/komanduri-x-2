@@ -1,16 +1,16 @@
 ﻿<div data-options="dxView: { name: 'home', title: 'Home' }">
-    <div id="home-nav-list" data-bind="dxList: { dataSource: MyApp.db.demoCategories, grouped: true, itemClickAction: navigateToProcedure, groupTemplate: 'group' }">
+    <div id="home-nav-list" data-bind="dxList: { dataSource: MyApp.db.demoCategories, grouped: true, groupTemplate: 'group' }">
         <div data-options="dxTemplate: { name: 'group' }">
             <div class="group-button collapse" data-bind="dxAction: function (evt) { $parent.onGroupItemClicked(evt); }">
                 <div class="group-caption" data-bind="text: key"></div>
             </div>
         </div>
-        <div data-options="dxTemplate: { name: 'item' }">
-            <div data-bind="text: text"></div>
+        <div class="embedded-toolbar" data-options="dxTemplate: { name: 'item' }">
+            <div data-bind="{ text: text, dxAction: '#procedure/' + $data.id }"></div>
             <div data-bind="dxToolbar: { dataSource: [ 
-                { location: 'right', widget: 'button', options: { icon: 'image' }}, 
-                { location: 'right', widget: 'button', options: { icon: 'photo' }}, 
-                { location: 'right', widget: 'button', options: { icon: 'doc' }} ] }"></div>                
+                { location: 'right', widget: 'button', options: { icon: 'image', clickAction: '#images/' + $data.id }}, 
+                { location: 'right', widget: 'button', options: { icon: 'photo', clickAction: '#videos/' + $data.id }}, 
+                { location: 'right', widget: 'button', options: { icon: 'doc', clickAction: '#guidelines/' + $data.id }} ] }"></div>                
         </div>
     </div>
 </div>

@@ -102,3 +102,6 @@ body
     min-height: 35px;
 }
 
+img, video {
+    max-width: 100%;
+}
