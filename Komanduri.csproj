@@ -73,6 +73,7 @@
     <Content Include="js\jquery-1.10.2.min.js" />
     <Content Include="js\jquery-2.0.3.min.js" />
     <Content Include="js\knockout-3.0.0.js" />
+    <Content Include="js\koExternalTemplateEngine_all.min.js" />
     <Content Include="js\localization\globalize.culture.fr.js" />
     <Content Include="js\localization\localization.default.js" />
     <Content Include="js\localization\localization.fr.js" />
@@ -156,6 +157,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="widgets\cardfooter\cardfooter.html" />
     <Content Include="widgets\card\card.css" />
     <Content Include="widgets\card\card.html" />
     <Content Include="widgets\cardmenu\cardmenu.css" />
@@ -168,6 +170,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="js\jquery-2.0.3.min.map" />
+    <Content Include="packages.config" />
     <None Include="res\screen\tizen\README.md" />
   </ItemGroup>
   <ItemGroup>

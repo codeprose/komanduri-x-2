@@ -20,6 +20,8 @@
     <script type="text/javascript" src="js/fastclick.js"></script>
     <script type="text/javascript" src="js/knockout-3.0.0.js"></script>
     
+    <script type="text/javascript" src="js/koExternalTemplateEngine_all.min.js"></script>
+
     <script type="text/javascript" src="widgets/setup.js"></script>
 
     <script type="text/javascript" src="js/globalize.min.js"></script>
@@ -51,6 +53,8 @@
     <link rel="cp-template" type="text/html" href="widgets/cardmenu/cardmenu.html" />
     <link rel="stylesheet" type="text/css" href="widgets/cardmenu/cardmenu.css" />
     <script type="text/javascript" src="widgets/cardmenu/cardmenu.js"></script>
+    
+    <link rel="cp-template" type="text/html" href="widgets/cardfooter/cardfooter.html" />
 
     <script type="text/javascript" src="views/cardshome/cardshome.js"></script>
     <link rel="dx-template" type="text/html" href="views/cardshome/cardshome.html"/>
@@ -91,22 +95,5 @@
 </head>
 <body>
     <div id="viewport" class="dx-viewport dx-ios-stripes"></div>
-    <script type="text/html" id="card-template">
-        <div class="card">
-            <div data-bind="cardmenu: {}"></div>
-            <h1 data-bind="text: title"></h1>
-            <p data-bind="text: content"></p>
-        </div>        
-    </script>
-    <script type="text/html" id="cardmenu-template">
-        <span class="cardmenu-indicator">+</span>
-        <ul class="cardmenu">
-            <li>Add to Favorites</li>
-            <li>----------------</li>
-            <li>View Images</li>
-            <li>View Videos</li>
-            <li>Read Guidelines</li>
-        </ul>
-    </script>
 </body>
 </html>
