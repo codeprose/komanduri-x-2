@@ -1,0 +1,20 @@
+﻿.cardfooter-button {
+    width: 22%;
+    height: 100%;
+    border-right-width: 1px;
+    border-right-color: gray;
+    border-right-style: solid;
+    display: inline-block;
+    text-align: center;
+}
+
+.cardfooter-button:last-of-type {
+    border-style: none;
+}
+
+.cardfooter-box {
+    width: 100%;
+    border-top-color: gray;
+    border-top-style: solid;
+    border-top-width: 2px;
+}

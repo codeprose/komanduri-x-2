@@ -157,6 +157,7 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="widgets\cardfooter\cardfooter.css" />
     <Content Include="widgets\cardfooter\cardfooter.html" />
     <Content Include="widgets\card\card.css" />
     <Content Include="widgets\card\card.html" />
