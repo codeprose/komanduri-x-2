@@ -76,6 +76,9 @@
     <Content Include="js\localization\globalize.culture.fr.js" />
     <Content Include="js\localization\localization.default.js" />
     <Content Include="js\localization\localization.fr.js" />
+    <Content Include="layouts\Empty\EmptyLayout.css" />
+    <Content Include="layouts\Empty\EmptyLayout.html" />
+    <Content Include="layouts\Empty\EmptyLayout.js" />
     <Content Include="layouts\Navbar\NavbarLayout.css" />
     <Content Include="layouts\Navbar\NavbarLayout.html" />
     <Content Include="layouts\Navbar\NavbarLayout.js" />
@@ -121,6 +124,9 @@
     <Content Include="res\screen\ios\screen-iphone-portrait.png" />
     <Content Include="res\screen\webos\screen-64.png" />
     <Content Include="res\screen\windows-phone\screen-portrait.jpg" />
+    <Content Include="views\cardshome\cardshome.css" />
+    <Content Include="views\cardshome\cardshome.html" />
+    <Content Include="views\cardshome\cardshome.js" />
     <Content Include="views\guidelines\guidelines.css" />
     <Content Include="views\guidelines\guidelines.html" />
     <Content Include="views\guidelines\guidelines.js" />
@@ -150,6 +156,12 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="widgets\card\card.css" />
+    <Content Include="widgets\card\card.html" />
+    <Content Include="widgets\cardmenu\cardmenu.css" />
+    <Content Include="widgets\cardmenu\cardmenu.html" />
+    <Content Include="widgets\cardmenu\cardmenu.js" />
+    <Content Include="widgets\setup.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
