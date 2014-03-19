@@ -1,0 +1,12 @@
+﻿.mediacard {
+    background:#FFF;
+    border:1px solid #AAA;
+    border-bottom:3px solid #BBB;
+    padding:0px;
+    margin:15px;
+    overflow:hidden;
+    width: 20%;
+    min-width: 150px;
+    max-width: 250px;
+    float: left;
+}

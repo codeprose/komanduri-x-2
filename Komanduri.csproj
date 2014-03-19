@@ -128,6 +128,9 @@
     <Content Include="views\cardshome\cardshome.css" />
     <Content Include="views\cardshome\cardshome.html" />
     <Content Include="views\cardshome\cardshome.js" />
+    <Content Include="views\cardsimages\cardsimages.css" />
+    <Content Include="views\cardsimages\cardsimages.html" />
+    <Content Include="views\cardsimages\cardsimages.js" />
     <Content Include="views\guidelines\guidelines.css" />
     <Content Include="views\guidelines\guidelines.html" />
     <Content Include="views\guidelines\guidelines.js" />
@@ -164,6 +167,10 @@
     <Content Include="widgets\cardmenu\cardmenu.css" />
     <Content Include="widgets\cardmenu\cardmenu.html" />
     <Content Include="widgets\cardmenu\cardmenu.js" />
+    <Content Include="widgets\mediacardfooter\mediacardfooter.css" />
+    <Content Include="widgets\mediacardfooter\mediacardfooter.html" />
+    <Content Include="widgets\mediacard\mediacard.css" />
+    <Content Include="widgets\mediacard\mediacard.html" />
     <Content Include="widgets\setup.js" />
   </ItemGroup>
   <ItemGroup>
