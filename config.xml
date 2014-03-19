@@ -2,14 +2,14 @@
 <widget
     xmlns="http://www.w3.org/ns/widgets"
     xmlns:gap="http://phonegap.com/ns/1.0"
-    id="com.codeprose.komanduri"
+    id="com.codeprose.komanduri-x-2"
     versionCode="100"
-    version="0.1.0.3">
+    version="0.1.0.5">
    
-    <name>Komanduri</name>
+    <name>Komanduri-x-2</name>
 
     <description>
-        Endoscopic Procedure Reference
+        Endoscopic Procedure Reference - Cards Prototype
     </description>
 
     <author href="http://www.thecodeprose.com">
