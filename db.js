@@ -62,7 +62,8 @@
                             ogg: 'https://dl.dropboxusercontent.com/s/5x28hmlc4jqrx4y/AVM-RFA-2.ogg', 
                             webm: 'https://dl.dropboxusercontent.com/s/ue3693xnhllsv1l/AVM-RFA-2.webm'
                         },
-                        fallback: 'https://www.dropbox.com/s/xq57ukw5l0jdlt7/AVM-RFA-2.mp4' 
+                        fallback: 'https://www.dropbox.com/s/xq57ukw5l0jdlt7/AVM-RFA-2.mp4',
+                        thumbnail: 'https://photos-5.dropbox.com/t/0/AAAs2_T2PiP8qKXe9tNt0u5oAYPaks9CebrrW3azE3HXVw/12/4152474/jpeg/320x320/1/_/0/2/esophagus.mp4/0U5ITA5mqmLOA6gOXNwVZSWCSQrfQE5TFsBKHafDR9s%2CfwgL3v4XPMepJ2aYhT_dsXZWDA0PzNbsuWHTJgE72hQ%2C4dGMBnIHdIxIlYo2nhZw0IThF7MXlxJqQ5Xw5f-mZdo%2CzLPgzImRtdXwoQENTrl0E1CC74l6uU2-ixRX9Oxdc7g%2CCIzewVytvWs9QBES6JD79PEYDIRytUtGtQPJYA1R64w%2CgbudaEXU17YQ-Aawj2fgzUW0FPEKCDMTYcwpOIrQIYA'
                     }
                 ],
                 guidelines: [

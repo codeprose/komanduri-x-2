@@ -2,7 +2,14 @@
     <div class="mediacardfooter-button">
         <span class="flaticon-like3"></span>
     </div>
+    <!-- ko if: type === 'image' -->
     <div class="mediacardfooter-button">
         <span class="flaticon-framework"></span>
     </div>
+    <!-- /ko -->
+    <!-- ko if: type === 'video' -->
+    <div class="mediacardfooter-button">
+        <span class="flaticon-play40"></span>
+    </div>
+    <!-- /ko -->
 </div>

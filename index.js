@@ -19,6 +19,7 @@ $(function () {
 
     MyApp.app.router.register(":view", { view: "cardshome" });
     MyApp.app.router.register(":view/:id", { view: "cardsimages", id: null });
+    MyApp.app.router.register(":view/:id", { view: "cardsvideos", id: null });
     //    MyApp.app.router.register(":view", { view: "library" });
     //    MyApp.app.router.register(":view", { view: "settings" });
     //    MyApp.app.router.register(":view/:id", { view: "procedure", id: null });
