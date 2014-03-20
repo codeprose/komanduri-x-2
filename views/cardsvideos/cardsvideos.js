@@ -2,6 +2,7 @@
     var procedure = MyApp.db.getProcedureById(params.id);
 
     return {
-        videos: procedure.videos    
+        videos: procedure.videos,
+        id: procedure.id
     };
 };

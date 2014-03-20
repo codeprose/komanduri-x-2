@@ -1,0 +1,8 @@
+﻿<div data-options="dxView: { name: 'cardswatchvideo', title: 'Watch Video' }">
+    <video controls>
+        <source type="video/mp4" data-bind="attr: { src: video.sources.mp4 }">
+        <source type="video/ogg" data-bind="attr: { src: video.sources.ogg }">
+        <source type="video/webm" data-bind="attr: { src: video.sources.webm }">              
+        <p>Video is not supported by this device. View the original content <a data-bind="attr: { href: video.fallback }">here</a>.</p>
+    </video>    
+</div>

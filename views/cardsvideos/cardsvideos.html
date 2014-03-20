@@ -1,7 +1,7 @@
 ﻿<div data-options="dxView: { name: 'cardsvideos', title: 'Videos' }">
     <div data-bind="dxScrollView: {}">
         <div data-bind="foreach: videos">
-            <div data-bind="mediacard: { contentimage: thumbnail, type: 'video' }"></div>
+            <div data-bind="mediacard: { contentimage: thumbnail, type: 'video', index: $index(), id: $parent.id }"></div>
         </div>    
     </div>
 </div>

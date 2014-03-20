@@ -137,6 +137,9 @@
     <Content Include="views\cardsvideos\cardsvideos.css" />
     <Content Include="views\cardsvideos\cardsvideos.html" />
     <Content Include="views\cardsvideos\cardsvideos.js" />
+    <Content Include="views\cardswatchvideo\cardswatchvideo.css" />
+    <Content Include="views\cardswatchvideo\cardswatchvideo.html" />
+    <Content Include="views\cardswatchvideo\cardswatchvideo.js" />
     <Content Include="views\guidelines\guidelines.css" />
     <Content Include="views\guidelines\guidelines.html" />
     <Content Include="views\guidelines\guidelines.js" />
