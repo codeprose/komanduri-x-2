@@ -1,18 +1,18 @@
 ﻿<div data-options="dxView: { name: 'cardshome', title: 'Home' }">
-    <div data-bind="dxScrollView: {}">
+    <div class="cards-home-view" data-bind="dxScrollView: { direction: 'vertical' }">
         <div>
             <h2>All Procedures</h2>
             <div data-bind="foreach: MyApp.db.demoCategories">
                 <div data-bind="foreach: items">
-                    <div data-bind="card: { title: text, content: id, id: id }"></div>    
+                    <div data-bind="card: { title: text, photoCount: $data.photos.length, videoCount: $data.videos.length, slideCount: $data.guidelines.length, id: id }"></div>    
                 </div>
-            </div>
+            </div>                
         </div>
         <div data-bind="foreach: MyApp.db.demoCategories">
             <div class="dx-clearfix"></div>
             <h2 data-bind="text: key"></h2>
             <div data-bind="foreach: $data.items">
-                <div data-bind="card: { title: text, content: id, id: id }"></div>     
+                <div data-bind="card: { title: text, photoCount: $data.photos.length, videoCount: $data.videos.length, slideCount: $data.guidelines.length, id: id }"></div>     
             </div>
         </div>        
     </div>

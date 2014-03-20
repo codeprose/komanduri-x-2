@@ -1,6 +1,10 @@
 ﻿<div class="card">
     <!--<div data-bind="cardmenu: {}"></div>-->
-    <h1 data-bind="text: title"></h1>
-    <p data-bind="text: content"></p>
+    <h3 data-bind="text: title"></h3>
+    <ul>
+        <li><span data-bind="text: photoCount"></span> Photos</li>
+        <li><span data-bind="text: videoCount"></span> Videos</li>
+        <li><span data-bind="text: slideCount"></span> Slides</li>
+    </ul>
     <div data-bind="cardfooter: { id: id }"></div>
 </div>

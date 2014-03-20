@@ -1,14 +1,20 @@
 ﻿.mediacard {
-    color: black;
-    background:#FFF;
-    border:1px solid #AAA;
-    border-bottom:3px solid #BBB;
+    background: white;
+    border:1px solid rgb(37, 37, 37);
     padding:0px;
     margin:5px;
     margin-left: 4px;
     overflow:hidden;
     width: 20%;
-    min-width: 140px;
+    min-width: 144px;
     max-width: 250px;
     float: left;
+    
+    -moz-box-shadow:    2px 2px #aaa;
+    -webkit-box-shadow: 2px 2px #aaa;
+    box-shadow:         2px 2px #aaa;
+
+    -moz-border-radius:     2px;
+    -webkit-border-radius:  2px;
+    border-radius:          2px;    
 }

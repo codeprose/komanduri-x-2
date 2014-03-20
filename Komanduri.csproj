@@ -60,6 +60,9 @@
     <Content Include="css\dx.ios.default.css" />
     <Content Include="css\dx.tizen.black.css" />
     <Content Include="css\dx.win8.black.css" />
+    <Content Include="fonts\flaticon.css" />
+    <Content Include="fonts\flaticon.html" />
+    <Content Include="fonts\flaticon.svg" />
     <Content Include="icon.png" />
     <Content Include="index.css" />
     <Content Include="index.html" />
@@ -177,6 +180,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="fonts\flaticon.eot" />
+    <None Include="fonts\flaticon.ttf" />
+    <None Include="fonts\flaticon.woff" />
     <None Include="js\jquery-2.0.3.min.map" />
     <Content Include="packages.config" />
     <None Include="res\screen\tizen\README.md" />
