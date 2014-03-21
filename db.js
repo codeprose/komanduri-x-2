@@ -2,19 +2,6 @@
 /// <reference path="../js/knockout-3.0.0.js"; />
 
 (function () {
-    var myVideos = [
-        { name: "Esophageal Adenocarcinoma: Wallflex Stent placement", src: "_iAkYvRl7FM" },
-        { name: "RFA for GAVE (Halo ULTRA)", src: "kRwliAyFJ6U" },
-        { name: "Band Ligation EMR for Barrett's w IMC", src: "VGx7h_cFrNU" }
-    ];
-
-    var library = ko.observableArray([
-        { key: 'My Procedures', items: [] },
-        { key: 'Photo Gallery', items: [] },
-        { key: 'Video Gallery', items: [] },
-        { key: 'Guidelines/Algorithm/PPT Gallery', items: [] },
-        { key: 'My Links', items: [] }
-    ]);
 
     var favorites = [
         { key: 'procedures', items: ko.observableArray([]) },
@@ -169,35 +156,6 @@
         { key: 'Miscellaneous', items: [] }
     ];
 
-    var categories = [
-        {
-            key: "Enteral and Esophageal Stenting",
-            items: [
-                { name: "Esophageal Adenocarcinoma: Wallflex Stent placement", src: "_iAkYvRl7FM" },
-                { name: "Duodenal Stent Placement (Evolution) for Malignant Obstruction", src: "CPDxUtmA0R8" },
-                { name: "Malignant Colonic Obstruction: Evolution Stent Placement", src: "RWXLNQTH0qw" }
-            ]
-        },
-        {
-            key: "GI Bleed",
-            items: [
-                { name: "GI bleed post jumbo biopsy unroofing of GIST", src: "cwbp1I4ROe8" },
-                { name: "GI Bleed: Diuelafoy lesion with hemoclip", src: "xMRfJy5292c" },
-                { name: "RFA for GAVE (Halo ULTRA)", src: "kRwliAyFJ6U" },
-                { name: "RFA of Bleeding AVM", src: "eFvgxCAjTUI" },
-                { name: "Barrett's EMR Bleed", src: "DNvNVrHx3BA" }
-            ]
-        },
-        {
-            key: "Barrett's Endotherapy",
-            items: [
-                { name: "Band Ligation EMR for Barrett's w IMC", src: "VGx7h_cFrNU" },
-                { name: "Focal Barrx 90 RFA Technique", src: "-KxpZ0Dn8Qs" },
-                { name: "Barrett's Esophagus 360 RFA", src: "_8leijapLQA" }
-            ]
-        }
-    ];
-
     var getProcedureById = function (procedureId) {
         for (var groupIndex = 0; groupIndex < MyApp.db.demoCategories.length; groupIndex++) {
             for (var itemIndex = 0; itemIndex < MyApp.db.demoCategories[groupIndex].items.length; itemIndex++) {
@@ -212,9 +170,7 @@
     };
 
     window.MyApp.db = {
-        library: library,
         ryansLibrary: favorites,
-        categories: new DevExpress.data.ArrayStore(categories),
         demoCategories: demoCategories,
         getProcedureById: getProcedureById,
 
@@ -226,6 +182,17 @@
         addVideoToFavorites: function (videoUrl) {
             favorites[2].items.push(videoUrl);
             favorites[2].items.apply();
+        },
+        
+        isProcedureFavorite: function (procedureId) {
+            var hasMatch = false;
+            $.each(favorites[0].items, function(index, item) {
+                if (item.id === procedureId) {
+                    hasMatch = true;
+                }
+            });
+
+            return hasMatch;
         }
     };
 

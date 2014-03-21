@@ -1,5 +1,5 @@
 ﻿<div class="cardfooter-box">
-    <div class="mediacardfooter-button">
+    <div class="mediacardfooter-button" data-bind="dxAction: function () { MyApp.db.addImageToFavorites(MyApp.db.getProcedureById(id).photos[index]); }">
         <span class="flaticon-like3"></span>
     </div>
     <!-- ko if: type === 'image' -->

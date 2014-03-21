@@ -1,6 +1,16 @@
 ﻿<div data-options="dxView: { name: 'cardshome', title: 'Home' }">
     <div class="cards-home-view" data-bind="dxScrollView: { direction: 'vertical' }">
         <div>
+            <h2>Favorites</h2>
+            <div data-bind="foreach: MyApp.db.ryansLibrary[0].items">
+                <div data-bind="card: { title: text, photoCount: $data.photos.length, videoCount: $data.videos.length, slideCount: $data.guidelines.length, id: id }"></div>     
+            </div>
+            <div data-bind="foreach: MyApp.db.ryansLibrary[1].items">
+                <div data-bind="mediacard: { contentimage: String($data), type: 'image', index: $index(), id: null }"></div>
+            </div>
+        </div>
+        <div class="dx-clearfix"></div>
+        <div>
             <h2>All Procedures</h2>
             <div data-bind="foreach: MyApp.db.demoCategories">
                 <div data-bind="foreach: items">

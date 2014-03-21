@@ -1,6 +1,6 @@
 ﻿<div class="cardfooter-box">
-    <div class="cardfooter-button">
-        <span class="flaticon-like3"></span>
+    <div class="cardfooter-button" data-bind="dxAction: function () { MyApp.db.ryansLibrary[0].items.push(MyApp.db.getProcedureById(id)); }">
+        <span class="flaticon-like3" ></span>
     </div>
     <div class="cardfooter-button" data-bind="dxAction: '#cardsimages/' + id">
         <span class="flaticon-image1"></span>
